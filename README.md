@@ -1,6 +1,6 @@
 # quizzical-backend
 
-FIXME: description
+Backend for quizzical app. Returns a JSON response of questions and four options to choose from. Also allows to add questions to the db.
 
 ## Installation
 

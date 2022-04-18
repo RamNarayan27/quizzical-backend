@@ -16,14 +16,14 @@
    :body (-> (str "GET '/' " req))})
 
 (defn get-questions-route
-  "Echo back a name"
+  "Endpoint for getting all questions"
   [req]
   {:status 200
    :headers {"Content-Type" "application/json"}
    :body (-> (api/get-questions))})
 
 (defn add-question-route
-  "Endpoint for adding a friend"
+  "Endpoint for adding a question"
   [req]
   {:status 200
    :headers {"Content-Type" "application/json"}

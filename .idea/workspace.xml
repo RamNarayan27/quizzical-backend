@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e435c6f-e89f-405d-9d29-ac6b41e33137" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27mHSPEw8knNWLHiFbkoZZ4898g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="cursive.last.file.extension./Users/ramnarayan/Swym/Clojure/quizzical-backend/src" value="clj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReplState" timestamp="1650275471272">{:repl-history {:ide [], :local [{:command &quot;get-questions&quot;, :offset 13, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(get-questions)&quot;, :offset 15, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(def qlist '({:qid 2,\n              :question \&quot;What-is-the-capital-of-India?\&quot;,\n              :correct_option \&quot;New-Delhi\&quot;,\n              :w_option_1 \&quot;Chennai\&quot;,\n              :w_option_2 \&quot;Bangalore\&quot;,\n              :w_option_3 \&quot;Mumbai\&quot;}\n             {:qid 3,\n              :question \&quot;What-is-the-capital-of-Mexico\&quot;,\n              :correct_option \&quot;Mexico-City\&quot;,\n              :w_option_1 \&quot;London\&quot;,\n              :w_option_2 \&quot;Kansas-City\&quot;,\n              :w_option_3 \&quot;Manchester\&quot;}\n             {:qid 4,\n              :question \&quot;What-is-the-capital-of-Russia?\&quot;,\n              :correct_option \&quot;Moscow\&quot;,\n              :w_option_1 \&quot;Kiev\&quot;,\n              :w_option_2 \&quot;Tokyo\&quot;,\n              :w_option_3 \&quot;Beijing\&quot;}\n             {:qid 5,\n              :question \&quot;What-is-the-capital-of-France?\&quot;,\n              :correct_option \&quot;Paris\&quot;,\n              :w_option_1 \&quot;Berlin\&quot;,\n              :w_option_2 \&quot;Manila\&quot;,\n              :w_option_3 \&quot;Ankara\&quot;}\n             {:qid 6,\n              :question \&quot;What-is-the-capital-of-Finland\&quot;,\n              :correct_option \&quot;Helsinki\&quot;,\n              :w_option_1 \&quot;Scranton\&quot;,\n              :w_option_2 \&quot;Honolulu\&quot;,\n              :w_option_3 \&quot;Cairo\&quot;}))&quot;, :offset 1162, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(qlist)&quot;, :offset 7, :ns &quot;quizzical-backend.api&quot;} {:command &quot;qlist&quot;, :offset 5, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(map (fn [m] (assoc {} :qid (m :qid)\n                       :question (m :question)\n                       :options (conj [] (m :correct_option)\n                                      (m :w_option_1)\n                                      (m :w_option_2)\n                                      (m :w_option_3)))) qlist)&quot;, :offset 316, :ns &quot;quizzical-backend.api&quot;}], :remote []}}</component>
+  <component name="RunManager">
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="REPL" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="quizzical-backend" />
+      <setting name="displayName" value="REPL" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e435c6f-e89f-405d-9d29-ac6b41e33137" name="Changes" comment="" />
+      <created>1649918342593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649918342593</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

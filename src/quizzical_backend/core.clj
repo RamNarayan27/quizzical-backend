@@ -16,6 +16,7 @@
 (defroutes app-routes
            (GET "/" [] routes/echo-route)
            (GET "/questions" [] routes/get-questions-route)
+           (GET "/questions-trivia-db" [] routes/get-questions-trivia-db-route)
            (POST "/questions" [] routes/add-question-route))
 
 (defn -main

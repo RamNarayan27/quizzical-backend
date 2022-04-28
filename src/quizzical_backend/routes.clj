@@ -22,6 +22,13 @@
    :headers {"Content-Type" "application/json"}
    :body (-> (api/get-questions))})
 
+(defn get-questions-trivia-db-route
+  "Endpoint from getting the questions from the OpenTriviaDB"
+  [req]
+  {:status 200
+   :headers {"Content-Type" "application/json"}
+   :body (-> (api/get-questions-from-trivia-db-api-and-add-to-db))})
+
 (defn add-question-route
   "Endpoint for adding a question"
   [req]

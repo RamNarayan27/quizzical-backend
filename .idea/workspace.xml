@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e435c6f-e89f-405d-9d29-ac6b41e33137" name="Changes" comment="Working backend">
+    <list default="true" id="3e435c6f-e89f-405d-9d29-ac6b41e33137" name="Changes" comment="Minor changes - Changed some docstrings.">
+      <change afterPath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clj_http_3_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clj_tuple_0_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__nrepl_0_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpclient_cache_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpcore_4_4_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpcore_nio_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_194.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__potemkin_0_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__riddley_0_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__slingshot_0_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_codec_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_codec_1_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_io_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_io_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_data_json_0_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_data_json_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/questions-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/questions-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizzical-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quizzical-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quizzical_backend/api.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/quizzical_backend/api.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quizzical_backend/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/quizzical_backend/core.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/quizzical_backend/routes.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/quizzical_backend/routes.clj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +63,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cursive.last.file.extension./Users/ramnarayan/Swym/Clojure/quizzical-backend/src" value="clj" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="ReplState" timestamp="1650276042727">{:repl-history {:ide [], :local [{:command &quot;get-questions&quot;, :offset 13, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(get-questions)&quot;, :offset 15, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(def qlist '({:qid 2,\n              :question \&quot;What-is-the-capital-of-India?\&quot;,\n              :correct_option \&quot;New-Delhi\&quot;,\n              :w_option_1 \&quot;Chennai\&quot;,\n              :w_option_2 \&quot;Bangalore\&quot;,\n              :w_option_3 \&quot;Mumbai\&quot;}\n             {:qid 3,\n              :question \&quot;What-is-the-capital-of-Mexico\&quot;,\n              :correct_option \&quot;Mexico-City\&quot;,\n              :w_option_1 \&quot;London\&quot;,\n              :w_option_2 \&quot;Kansas-City\&quot;,\n              :w_option_3 \&quot;Manchester\&quot;}\n             {:qid 4,\n              :question \&quot;What-is-the-capital-of-Russia?\&quot;,\n              :correct_option \&quot;Moscow\&quot;,\n              :w_option_1 \&quot;Kiev\&quot;,\n              :w_option_2 \&quot;Tokyo\&quot;,\n              :w_option_3 \&quot;Beijing\&quot;}\n             {:qid 5,\n              :question \&quot;What-is-the-capital-of-France?\&quot;,\n              :correct_option \&quot;Paris\&quot;,\n              :w_option_1 \&quot;Berlin\&quot;,\n              :w_option_2 \&quot;Manila\&quot;,\n              :w_option_3 \&quot;Ankara\&quot;}\n             {:qid 6,\n              :question \&quot;What-is-the-capital-of-Finland\&quot;,\n              :correct_option \&quot;Helsinki\&quot;,\n              :w_option_1 \&quot;Scranton\&quot;,\n              :w_option_2 \&quot;Honolulu\&quot;,\n              :w_option_3 \&quot;Cairo\&quot;}))&quot;, :offset 1162, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(qlist)&quot;, :offset 7, :ns &quot;quizzical-backend.api&quot;} {:command &quot;qlist&quot;, :offset 5, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(map (fn [m] (assoc {} :qid (m :qid)\n                       :question (m :question)\n                       :options (conj [] (m :correct_option)\n                                      (m :w_option_1)\n                                      (m :w_option_2)\n                                      (m :w_option_3)))) qlist)&quot;, :offset 316, :ns &quot;quizzical-backend.api&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1651066445489">{:repl-history {:ide [], :local [{:command &quot;get-questions&quot;, :offset 13, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(def qlist '({:qid 2,\n              :question \&quot;What-is-the-capital-of-India?\&quot;,\n              :correct_option \&quot;New-Delhi\&quot;,\n              :w_option_1 \&quot;Chennai\&quot;,\n              :w_option_2 \&quot;Bangalore\&quot;,\n              :w_option_3 \&quot;Mumbai\&quot;}\n             {:qid 3,\n              :question \&quot;What-is-the-capital-of-Mexico\&quot;,\n              :correct_option \&quot;Mexico-City\&quot;,\n              :w_option_1 \&quot;London\&quot;,\n              :w_option_2 \&quot;Kansas-City\&quot;,\n              :w_option_3 \&quot;Manchester\&quot;}\n             {:qid 4,\n              :question \&quot;What-is-the-capital-of-Russia?\&quot;,\n              :correct_option \&quot;Moscow\&quot;,\n              :w_option_1 \&quot;Kiev\&quot;,\n              :w_option_2 \&quot;Tokyo\&quot;,\n              :w_option_3 \&quot;Beijing\&quot;}\n             {:qid 5,\n              :question \&quot;What-is-the-capital-of-France?\&quot;,\n              :correct_option \&quot;Paris\&quot;,\n              :w_option_1 \&quot;Berlin\&quot;,\n              :w_option_2 \&quot;Manila\&quot;,\n              :w_option_3 \&quot;Ankara\&quot;}\n             {:qid 6,\n              :question \&quot;What-is-the-capital-of-Finland\&quot;,\n              :correct_option \&quot;Helsinki\&quot;,\n              :w_option_1 \&quot;Scranton\&quot;,\n              :w_option_2 \&quot;Honolulu\&quot;,\n              :w_option_3 \&quot;Cairo\&quot;}))&quot;, :offset 1162, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(qlist)&quot;, :offset 7, :ns &quot;quizzical-backend.api&quot;} {:command &quot;qlist&quot;, :offset 5, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(map (fn [m] (assoc {} :qid (m :qid)\n                       :question (m :question)\n                       :options (conj [] (m :correct_option)\n                                      (m :w_option_1)\n                                      (m :w_option_2)\n                                      (m :w_option_3)))) qlist)&quot;, :offset 316, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(clj-http.client/get \&quot;https://opentdb.com/api.php?amount=5&amp;type=multiple\&quot;)&quot;, :offset 74, :ns &quot;quizzical-backend.core&quot;} {:command &quot;(get-questions-route)&quot;, :offset 21, :ns &quot;quizzical-backend.routes&quot;} {:command &quot;(type (get-questions-from-trivia-db-api))&quot;, :offset 41, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(client/get \&quot;https://opentdb.com/api.php?amount=5&amp;type=multiple\&quot;)&quot;, :offset 65, :ns &quot;quizzical-backend.api&quot;} {:command &quot;((client/get \&quot;https://opentdb.com/api.php?amount=5&amp;type=multiple\&quot;) :body)&quot;, :offset 73, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(get-questions)&quot;, :offset 15, :ns &quot;quizzical-backend.api&quot;} {:command &quot;((get-questions-from-trivia-db-api) \&quot;results\&quot;)&quot;, :offset 46, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(((get-questions-from-trivia-db-api) \&quot;results\&quot;) 0)&quot;, :offset 50, :ns &quot;quizzical-backend.api&quot;} {:command &quot;((((get-questions-from-trivia-db-api) \&quot;results\&quot;) 0) \&quot;incorrect_answers\&quot;)&quot;, :offset 72, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(((((get-questions-from-trivia-db-api) \&quot;results\&quot;) 0) \&quot;incorrect_answers\&quot;) 0)&quot;, :offset 76, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(map (fn [m] (assoc {} :question (m \&quot;question\&quot;)\n                       :correct_option (m \&quot;correct_answer\&quot;)\n                       :w_option_1 (m (\&quot;incorrect_answers\&quot; 0))\n                       :w_option_2 (m (\&quot;incorrect_answers\&quot; 1))\n                       :w_option_3 (m (\&quot;incorrect_answers\&quot; 2))))\n     ((json/read-str\n        ((client/get\n           \&quot;https://opentdb.com/api.php?amount=5&amp;type=multiple\&quot;) :body)) \&quot;results\&quot;))&quot;, :offset 425, :ns &quot;quizzical-backend.api&quot;} {:command &quot;((json/read-str\n   ((client/get\n      \&quot;https://opentdb.com/api.php?amount=5&amp;type=multiple\&quot;) :body)) \&quot;results\&quot;)&quot;, :offset 110, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(map (fn [m] (assoc {} :question (m \&quot;question\&quot;))) ((json/read-str\n             ((client/get\n                \&quot;https://opentdb.com/api.php?amount=5&amp;type=multiple\&quot;) :body)) \&quot;results\&quot;))&quot;, :offset 181, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(map (fn [m] (assoc {} :question (m \&quot;correct_answer\&quot;))) ((json/read-str\n             ((client/get\n                \&quot;https://opentdb.com/api.php?amount=5&amp;type=multiple\&quot;) :body)) \&quot;results\&quot;))&quot;, :offset 187, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(map (fn [m] (assoc {} :some-key (m \&quot;incorrect_answers\&quot;))) ((json/read-str\n             ((client/get\n                \&quot;https://opentdb.com/api.php?amount=5&amp;type=multiple\&quot;) :body)) \&quot;results\&quot;))&quot;, :offset 190, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(map (fn [m] (assoc {} :some-key (m \&quot;incorrect_answers\&quot; 0))) ((json/read-str\n             ((client/get\n                \&quot;https://opentdb.com/api.php?amount=5&amp;type=multiple\&quot;) :body)) \&quot;results\&quot;))&quot;, :offset 192, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(map (fn [m] (assoc {} :some-key ((m \&quot;incorrect_answers\&quot;) 0))) ((json/read-str\n             ((client/get\n                \&quot;https://opentdb.com/api.php?amount=5&amp;type=multiple\&quot;) :body)) \&quot;results\&quot;))&quot;, :offset 194, :ns &quot;quizzical-backend.api&quot;} {:command &quot;(get-questions-from-trivia-db-api)&quot;, :offset 34, :ns &quot;quizzical-backend.api&quot;}], :remote []}}</component>
   <component name="RunManager">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
@@ -90,6 +123,17 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -107,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650275527523</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Minor changes - Changed some docstrings.">
+      <created>1650276075679</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650276075680</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -126,6 +177,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Working backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working backend" />
+    <MESSAGE value="Minor changes - Changed some docstrings." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes - Changed some docstrings." />
   </component>
 </project>

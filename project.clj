@@ -12,6 +12,8 @@
                  [ring/ring-json "0.5.0"]
                  [compojure "1.6.1"]
                  [http-kit "2.3.0"]
+                 [clj-http "3.12.3"]
+                 [org.clojure/data.json "2.4.0"]
                  [lynxeyes/dotenv "1.0.2"]]
   :main ^:skip-aot quizzical-backend.core
   :target-path "target/%s"
